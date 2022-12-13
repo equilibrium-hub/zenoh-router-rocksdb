@@ -1,4 +1,4 @@
-FROM eclipse/zenoh:0.6.0-beta.1
+FROM eclipse/zenoh:master
 
 COPY libzbackend_rocksdb.so .
 COPY zenoh.json5 .
