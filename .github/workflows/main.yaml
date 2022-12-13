@@ -37,7 +37,7 @@ jobs:
           # Build a docker container and push it to ECR
           echo "Config value:"
           cat zenoh.json5
-          git_hash=latest
+          git_hash=0.6.0-beta.1
           docker build -t $REGISTRY/$REPOSITORY:$git_hash .
           echo "Pushing image to DockerHub..."
           echo "repo name: $REGISTRY/$REPOSITORY:$git_hash"
