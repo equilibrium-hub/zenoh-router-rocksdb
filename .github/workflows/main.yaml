@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Building and Pushing the Image
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
