@@ -1,4 +1,8 @@
 {
+  mode: "router",
+  connect: {
+    endpoints: [ "tcp/10.0.0.242:7447" ]
+  },
   plugins: {
     // configuration of "storages" plugin:
     storage_manager: {
